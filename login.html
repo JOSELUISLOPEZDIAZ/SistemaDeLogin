@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logiiiin</title>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css" /> 
+</head>
+<body>
+<form action="validate.php" method="POST">
+  <div class="imgcontainer">
+    <img src="images/user.png" alt="User" class="user" width="200" height="200">
+  </div>
+
+  <div class="container">
+    <label><b>Usuario</b></label>
+    <input type="text" placeholder="Usuario" name="username" required>
+
+    <label><b>Clave</b></label>
+    <input type="password" placeholder="Clave" name="password" required>
+
+       
+    <button type="submit" name="submit">Logiiiin</button>
+    <input type="checkbox" checked="checked"> Recuerdeme
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="reset" class="cancelbtn">Cancelar</button>
+    <span class="psw">Olvido su <a href="#">Clave?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
